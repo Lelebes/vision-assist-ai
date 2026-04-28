@@ -1,0 +1,11 @@
+# Ignorar pastas de compilação do PyInstaller
+build/
+dist/
+*.spec
+
+# Ignorar imagens temporárias
+tela_temporaria.png
+
+# Ignorar lixo do Python
+__pycache__/
+*.pyc
