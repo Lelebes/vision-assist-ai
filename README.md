@@ -19,10 +19,7 @@ Um script em Python que roda em segundo plano. Ao pressionar um atalho global (`
 ## 🚀 Como Executar Localmente
 
 1. Clone o repositório.
-2. Instale as dependências: `pip install -r requirements.txt` _(Obs: crie esse arquivo depois listando as bibliotecas)_.
-3. Insira sua Google API Key no arquivo `captura.py`.
-4. Execute `python captura.py`.
-
-## 📦 Download do Executável
-
-_(No futuro, você colocará aqui o link da aba Releases do GitHub onde a pessoa pode baixar o .exe diretamente)_
+2. Instale as dependências executando o comando:
+   `pip install keyboard pillow google-genai pyttsx3`
+3. Insira sua Google API Key (gerada no Google AI Studio) no arquivo `captura.py`.
+4. Execute o script no terminal com `python captura.py`.
