@@ -9,3 +9,6 @@ tela_temporaria.png
 # Ignorar lixo do Python
 __pycache__/
 *.pyc
+
+# Ignorar arquivos de teste
+teste.py
